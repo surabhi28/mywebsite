@@ -10,8 +10,19 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
      <link href="style.css" rel="stylesheet" media="screen">
-
-
+<script>
+ $(document).ready(function(){
+    
+       $("#ani").animate({
+        left: '650px',
+        right:'350px',
+        height: '+=50px',
+        width: '+=150px',
+      fontSize: '100px' 
+     
+    },10000);
+     });
+   </script>
 </head>
 
 
@@ -20,7 +31,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <div ><!--start of jmbotron-->
-     <div class="jumbotron" style="background-image: url(bg.jpg);background-repeat: no-repeat;
+     <div  id="ani" class="jumbotron" style="background-image: url(bg.jpg);background-repeat: no-repeat;
           background-size: 100% 100%; width:100% ;margin-bottom:0; margin-top: 0">
 	   	    <div class="container text-center">
 	   	         <img src="log.jpg" class="img-circle" alt="Cinque Terre" width="100" height="100">
@@ -141,19 +152,20 @@
         </div>
         <div class="row">
           <div class="col-lg-4">
-            <blockquote>
-              <p>" Be more dedicated to making solid achievements than in running after swift but synthetic happiness." </p>
+            <blockquote style="background-color:#FEF6E4">
+           
+              <p >" Be more dedicated to making solid achievements than in running after swift but synthetic happiness." </p>
                 <footer> -A.P.J Abdul Kalam </footer>
             <blockquote>
           </div>
           <div class="col-lg-4">
-            <blockquote>
+            <blockquote style="background-color:#F1EDC2">
               <p>"Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover."</p>
                 <footer> - Mark Twain</footer>
             <blockquote>
           </div>
           <div class="col-lg-4">
-            <blockquote>
+            <blockquote style="background-color:#FEF1E9">
               <p>"Don't limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve."</p>
                 <footer> -Mary Kay Ash</footer>
             <blockquote>
